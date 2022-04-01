@@ -162,3 +162,29 @@ void lw::jenis_pekerjaan(){
 			break;
 	}
 }
+void lw::jenis_pekerjaan2(){
+	cout<<"\n Nomor pekerjaan          : ";cin>>pekerjaan;
+	switch(pekerjaan){
+		case 1:
+			gaji=15*0.04;
+			total=15-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=15*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 2:
+			gaji=13*0.04;
+			total=13-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=13*0.06*bulan;
+				total_gaji=total+bonus;
