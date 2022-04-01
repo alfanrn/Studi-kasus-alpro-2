@@ -79,4 +79,86 @@ void lw::jenis_pekerjaan(){
 				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
 			}else{
 				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
-	
+		}
+			break;
+		case 3:
+			cout<<"\n Pengalaman kerja (tahun) : ";cin>>peng_kerja;
+			if(peng_kerja>4){
+				gaji=8*0.04;
+				total=15+gaji;
+				cout<<" Anda mendapatkan tambahan gaji Rp. "<<total<<" Juta"<<endl;;
+			}else{
+				cout<<" Anda mendapatkan gaji 8 juta/bulan"<<endl;
+			} 
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=8*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 4:
+			cout<<"\n Pengalaman kerja (tahun) : ";cin>>peng_kerja;
+			if(peng_kerja>4){
+				gaji=18*0.04;
+				total=18+gaji;
+				cout<<" Anda mendapatkan tambahan gaji Rp. "<<total<<" Juta"<<endl;
+			}else{
+				cout<<" Anda mendapatkan gaji 18 juta/bulan"<<endl;
+			}
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=18*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 5:
+			cout<<"\n Pengalaman kerja (tahun) : ";cin>>peng_kerja;
+			if(peng_kerja>4){
+				gaji=8*0.04;
+				total=8+gaji;
+				cout<<" Anda mendapatkan tambahan gaji Rp. "<<total<<" Juta"<<endl;
+			}else{
+				cout<<" Anda mendapatkan gaji 8 juta/bulan"<<endl;
+			}
+						cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=8*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 6:
+			cout<<"\n Pengalaman kerja (tahun) : ";cin>>peng_kerja;
+			if(peng_kerja>4){
+				gaji=15*0.04;
+				total=15+gaji;
+				cout<<" Anda mendapatkan tambahan gaji Rp. "<<total<<" Juta"<<endl;
+			}else{
+				cout<<" Anda mendapatkan gaji 18 juta/bulan"<<endl;
+			}
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=15*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		default:
+			cout<<" Lowongan tidak tersedia"<<endl;
+			break;
+	}
+}
