@@ -188,3 +188,77 @@ void lw::jenis_pekerjaan2(){
 				if(posisi==1){
 				bonus=13*0.06*bulan;
 				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 3:
+			gaji=8*0.04;
+			total=8-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=8*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+		case 4:
+			gaji=18*0.04;
+			total=18-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=18*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+			break;
+		case 5:
+			gaji=8*0.04;
+			total=8-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=8*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+			break;
+		case 6:
+			gaji=15*0.04;
+			total=15-gaji;
+			cout<<" Anda mendapatkan gaji Rp. "<<total<<" Juta"<<endl;
+				cout<<" Berapa bulan anda mengerjakan program tersebut : ";cin>>bulan;
+				cout<<" Posisi dalam tim : ";cin>>posisi;
+				if(posisi==1){
+				bonus=15*0.06*bulan;
+				total_gaji=total+bonus;
+				cout<<" Total Gaji Anda adalah Rp. "<<total_gaji<<endl;
+			}else{
+				cout<<" Total Gaji Anda adalah Rp. "<<total<<endl;
+			}
+			break;
+			break;
+		default:
+			cout<<" Lowongan tidak tersedia"<<endl;
+			break;
+	}
+}
+int main(){
+	lw a;
+	a.jenis();
+	a.hitung();
+}
